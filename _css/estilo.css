@@ -1,0 +1,125 @@
+body {
+  background-color: #504f4f;
+
+
+}
+
+figure.foto-pokemon h6 {
+  padding: 2px;
+  background-color: black;
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+  text-indent: 15px;
+  width: 25%;
+  border-radius: 8px;
+}
+
+figure.foto-pokemon p {
+  color: white;
+  text-indent: 20px;
+  position: relative;
+  margin: 10px 15px auto 15px;
+  font-size: 17px;
+}
+
+figure.foto-pokemon img {
+  position: relative;
+  border-radius: 8px;
+
+}
+
+figure.foto-pokemon {
+  margin: 2px;
+  display: inline-block;
+  position: relative;
+  left: 17.5%;
+  top: 100px;
+  margin-top: -60px;
+}
+
+figure.foto-pokemon figcaption {
+  opacity: 0;
+  top: 0px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.719);
+  width: 100%;
+  height: 99.3%;
+  transition: opacity 1s;
+  border-radius: 8px;
+}
+
+figure.foto-pokemon h1 {
+  text-indent: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+figure.foto-pokemon figcaption:hover {
+  opacity: 1;
+}
+
+figure.foto-pokemon h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+
+}
+
+/* tipo dos pokemon*/
+
+h2#fogo {
+  background-color: rgb(250, 174, 33);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 2px;
+  box-shadow: 0px 0px 20px rgb(250, 174, 33);
+
+}
+
+h2#planta {
+  background-color: rgb(17, 241, 17);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 2px;
+  box-shadow: 0px 0px 20px rgb(17, 241, 17);
+
+}
+
+h2#veneno {
+  background-color: rgb(194, 33, 194);
+  border-radius: 8px;
+  margin: 0px;
+  padding: 2px;
+  box-shadow: 0px 0px 20px rgb(194, 33, 194);
+
+}
+
+h2#agua {
+  background-color: rgb(0, 248, 248);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 2px;
+  box-shadow: 0px 0px 20px aqua;
+
+}
+
+img#poke {
+  position: absolute;
+  top: 30%;
+  left: 78%;
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(1px 4px 30px black);
+}
+
+img#logo {
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  left: 30px;
+}
